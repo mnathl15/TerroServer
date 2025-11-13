@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "esbuild src/index.ts --platform=node --bundle --outfile=dist/app.js --watch",
+    "build": "esbuild src/index.ts --platform=node --bundle --outfile=dist/app.js",
+    "build-watch": "esbuild src/index.ts --platform=node --bundle --outfile=dist/app.js --watch",
     "start": "nodemon dist/app.js"
   },
   "dependencies": {
