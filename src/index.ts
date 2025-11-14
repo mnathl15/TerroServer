@@ -35,7 +35,7 @@ app.use(function (
   error: ErrorAdjusted,
   _req: Request,
   res: Response,
-  next: NextFunction
+  _next: NextFunction
 ) {
   console.log("Error: ", error.message);
   error.status = error.status || 500;
