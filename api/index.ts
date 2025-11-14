@@ -1,12 +1,12 @@
 import cors from "cors";
 import express from "express";
 
-import stimuliRouter from "./src/routes/stimuli";
+import stimuliRouter from "./routes/stimuli";
 
 import dotenv from "dotenv";
 import { NextFunction, Request, Response } from "express";
-import initDB from "./src/database/mongo";
-import { ErrorAdjusted } from "./src/types/server";
+import initDB from "./database/mongo";
+import { ErrorAdjusted } from "./types/server";
 
 dotenv.config();
 
