@@ -3,7 +3,7 @@ import express from "express";
 
 import { ErrorAdjusted } from "./types/server.ts";
 
-import stimuliRouter from "./routes/stimuli.ts";
+// import stimuliRouter from "./routes/stimuli.ts";
 
 import dotenv from "dotenv";
 import { NextFunction, Request, Response } from "express";
@@ -22,7 +22,7 @@ app.use(
 );
 app.use(express.json());
 
-app.use("/api/stimuli", stimuliRouter);
+// app.use("/api/stimuli", stimuliRouter);
 
 app.set("trust proxy", 1);
 
