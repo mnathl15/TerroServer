@@ -5,9 +5,9 @@ import {
   ServerSideLocationObject,
   StimuliDataResponse,
 } from "../types/stimuli";
-import { fetchFromLLMAndMongo } from "../utils/functions/stimuli";
-import { getGeocode } from "../utils/helpers/geocode";
-import { findTownshipLocale, getLocale } from "../utils/helpers/stimuli";
+import { fetchFromLLMAndMongo } from "../utils/functions/stimuli.ts";
+import { getGeocode } from "../utils/helpers/geocode.ts";
+import { findTownshipLocale, getLocale } from "../utils/helpers/stimuli.ts";
 
 export const getStimuli = async (
   req: Request,
