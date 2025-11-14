@@ -1,5 +1,5 @@
 import express from "express";
-import { getStimuli } from "../controllers/stimuli.ts";
+import { getStimuli } from "../controllers/stimuli";
 
 const router = express.Router();
 
