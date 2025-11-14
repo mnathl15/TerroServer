@@ -1,7 +1,7 @@
 import cors from "cors";
 import express from "express";
 
-// import stimuliRouter from "./routes/stimuli.ts";
+import stimuliRouter from "./routes/stimuli";
 
 import dotenv from "dotenv";
 import { NextFunction, Request, Response } from "express";
@@ -21,7 +21,7 @@ app.use(
 );
 app.use(express.json());
 
-// app.use("/api/stimuli", stimuliRouter);
+app.use("/api/stimuli", stimuliRouter);
 
 app.set("trust proxy", 1);
 
