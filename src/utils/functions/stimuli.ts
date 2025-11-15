@@ -3,14 +3,17 @@ import {
   ServerSideLocationObject,
   StimuliDataWithIds,
   TerroMarketData,
-} from "../../types/stimuli";
-import { getMidpointFromStimuli } from "../helpers/maps";
-import { getIsCachedSearchStale } from "../helpers/mongo";
-import { addPropsToLLMStimuliData, sortStimuli } from "../helpers/stimuli";
-import { getXMonthsAgo } from "../helpers/time";
-import { testStimuliData } from "../test/stimuli";
-import { getStimuliDataMongo, storeStimuliDataInMongo } from "./stimuli/mongo";
-import { callGetStimuliLLM } from "./stimuli/openai";
+} from "../../types/stimuli.js";
+import { getMidpointFromStimuli } from "../helpers/maps.js";
+import { getIsCachedSearchStale } from "../helpers/mongo.js";
+import { addPropsToLLMStimuliData, sortStimuli } from "../helpers/stimuli.js";
+import { getXMonthsAgo } from "../helpers/time.js";
+import { testStimuliData } from "../test/stimuli.js";
+import {
+  getStimuliDataMongo,
+  storeStimuliDataInMongo,
+} from "./stimuli/mongo.js";
+import { callGetStimuliLLM } from "./stimuli/openai.js";
 interface getStimDataProps {
   locationObj: ServerSideLocationObject;
 }

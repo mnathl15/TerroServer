@@ -3,15 +3,15 @@ import {
   STATE,
   SUBLOCALITY,
   TOWNSHIP,
-} from "../../constants/maps";
-import { STIM_INFLUENCES } from "../../constants/stimuli";
+} from "../../constants/maps.js";
+import { STIM_INFLUENCES } from "../../constants/stimuli.js";
 import {
   LLMStim,
   LLMStimuli,
   LLMStimuliData,
   StimuliData,
   StimuliDataWithIds,
-} from "../../types/stimuli";
+} from "../../types/stimuli.js";
 
 export const getMarketWeight = (stimuli: LLMStimuli) =>
   stimuli?.reduce((weights, currStim) => {

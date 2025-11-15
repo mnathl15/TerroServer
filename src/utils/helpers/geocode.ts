@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import { GEOCODE_API_PATH } from "../../constants/api-paths";
+import { GEOCODE_API_PATH } from "../../constants/api-paths.js";
 
 dotenv.config();
 
