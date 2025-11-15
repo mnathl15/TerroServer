@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from "express";
-import { STATE } from "../constants/maps";
-import { ReformedGeocoderResponse } from "../types/google";
+import { STATE } from "../constants/maps.js";
+import { ReformedGeocoderResponse } from "../types/google.js";
 import {
   ServerSideLocationObject,
   StimuliDataResponse,
-} from "../types/stimuli";
-import { fetchFromLLMAndMongo } from "../utils/functions/stimuli";
-import { getGeocode } from "../utils/helpers/geocode";
-import { findTownshipLocale, getLocale } from "../utils/helpers/stimuli";
+} from "../types/stimuli.js";
+import { fetchFromLLMAndMongo } from "../utils/functions/stimuli.js";
+import { getGeocode } from "../utils/helpers/geocode.js";
+import { findTownshipLocale, getLocale } from "../utils/helpers/stimuli.js";
 
 export const getStimuli = async (
   req: Request,
