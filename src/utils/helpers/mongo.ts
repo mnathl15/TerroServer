@@ -1,4 +1,4 @@
-import { getXMonthsAgo } from "./time";
+import { getXMonthsAgo } from "./time.js";
 
 export const getIsCachedSearchStale = (timestamp: Date): boolean => {
   const sixMonthsAgo = getXMonthsAgo(6);
