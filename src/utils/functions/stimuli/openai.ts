@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import { zodTextFormat } from "openai/helpers/zod.mjs";
-import { StimuliDataSchemaLLM } from "../../schema/openai";
+import { StimuliDataSchemaLLM } from "../../schema/openai.js";
 
 import dotenv from "dotenv";
 dotenv.config();

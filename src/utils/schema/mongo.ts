@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import { STIM_TYPES } from "../../constants/stimuli";
+import { STIM_TYPES } from "../../constants/stimuli.js";
 
 const StimSchema = new mongoose.Schema({
   title: String,

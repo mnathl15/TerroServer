@@ -1,4 +1,4 @@
-import { StimuliDataWithIds } from "../../types/stimuli";
+import { StimuliDataWithIds } from "../../types/stimuli.js";
 
 export const testStimuliData: StimuliDataWithIds = {
   locale: {

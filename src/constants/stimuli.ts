@@ -1,4 +1,4 @@
-import { StimType, StimWeights } from "../types/stimuli";
+import { StimType, StimWeights } from "../types/stimuli.js";
 
 export const STIM_TYPES: StimType[] = [
   "Zoning",

@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
-import { APIResponse } from "./api";
-import { ReformedGeocoderGeometry } from "./google";
+import { APIResponse } from "./api.js";
+import { ReformedGeocoderGeometry } from "./google.js";
 export type StimType =
   | "Zoning"
   | "Planning"

@@ -1,4 +1,4 @@
-import { LLMStimuli } from "../../types/stimuli";
+import { LLMStimuli } from "../../types/stimuli.js";
 
 export type getMidpointFromStimuliProps = {
   stimuli: LLMStimuli;

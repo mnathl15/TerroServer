@@ -1,5 +1,5 @@
-import { StimuliData, StimuliDataWithIds } from "../../../types/stimuli";
-import { MongoStimuliData } from "../../schema/mongo";
+import { StimuliData, StimuliDataWithIds } from "../../../types/stimuli.js";
+import { MongoStimuliData } from "../../schema/mongo.js";
 export const getStimuliDataMongo = async (
   localeKey: string
 ): Promise<StimuliDataWithIds | null> =>

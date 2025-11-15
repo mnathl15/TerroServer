@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { STIM_TYPES } from "../../constants/stimuli";
+import { STIM_TYPES } from "../../constants/stimuli.js";
 
 const StimSchema = z.object({
   title: z.string(),
